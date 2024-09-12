@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Authur List {% endblock %}
+
+{% block content %} 
+<h1>Authors</h1>
+<a href="{% url 'author_create' %}" class="btn btn-primary mb-3">Create New Author</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Birthdate</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}
